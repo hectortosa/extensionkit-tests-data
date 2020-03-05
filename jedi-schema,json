@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Example",
+  "type": "object",
+  "properties": {
+    "jedi": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "equipment": {
+          "type": "object",
+          "properties": {
+            "droid": {
+              "type": "string"
+            },
+            "weapon": {
+              "type": "string"
+            },
+            "ship": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
